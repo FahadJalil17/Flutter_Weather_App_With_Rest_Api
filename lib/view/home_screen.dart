@@ -62,7 +62,7 @@ class HomeScreen extends StatelessWidget {
                           RichText(text: TextSpan(
                               children: [
                                 TextSpan(
-                                    text: "${snapshot.data.main.temp}", style: TextStyle(
+                                    text: "${snapshot.data.main.temp}$degree", style: TextStyle(
                                     color: theme.primaryColor, fontSize: 64, fontFamily: 'poppins'
                                 )
                                 ),
